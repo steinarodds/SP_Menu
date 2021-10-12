@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E841ED262F5B4E6C}SP_Menu/gui/fonts/raleway/bold14.edds"
+ Author "desktop-291ln96"
+ ChangeDate -144839951
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "bold14.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

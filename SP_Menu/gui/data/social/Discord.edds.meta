@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9F58B9C287818F25}SP_Menu/gui/data/social/New/Discord.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate -1700025524
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Discord.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

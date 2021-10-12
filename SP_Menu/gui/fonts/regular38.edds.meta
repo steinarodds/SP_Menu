@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F36A638A466ACE16}SP_Menu/gui/fonts/raleway/regular38.edds"
+ Author "desktop-291ln96"
+ ChangeDate -747771151
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "regular38.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

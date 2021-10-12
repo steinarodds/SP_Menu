@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{603630A317518AD9}SP_Menu/gui/data/logotipo/logo.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate -213079221
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logo.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

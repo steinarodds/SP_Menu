@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{49D059796D041DD0}SP_Menu/gui/data/deathscreen/deathscreen.edds"
+ Author "desktop-19meifj"
+ ChangeDate 1211361861
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "deathscreen.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

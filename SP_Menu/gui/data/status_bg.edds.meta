@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2492DAA2B8D4A57A}SP_Menu/gui/data/status_bg.edds"
+ Author "desktop-291ln96"
+ ChangeDate -1307710671
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "status_bg.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

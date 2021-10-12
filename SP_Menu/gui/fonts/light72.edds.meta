@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3521FFF027987BAB}SP_Menu/gui/fonts/raleway/light72.edds"
+ Author "desktop-291ln96"
+ ChangeDate -144315663
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "light72.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

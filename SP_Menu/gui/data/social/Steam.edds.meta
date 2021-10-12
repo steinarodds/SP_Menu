@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3C0AEA5D703DA2FC}SP_Menu/gui/data/social/New/Steam.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate 1880337228
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Steam.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

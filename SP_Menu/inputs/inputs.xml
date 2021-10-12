@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="ZB_ToggleLogo" loc="Toggle Logo Overlay" />
+        </actions>
+    </inputs>
+    <preset>
+        <input name="ZB_ToggleLogo">
+            <btn name="kHome" />
+        </input>
+    </preset>
+</modded_inputs>

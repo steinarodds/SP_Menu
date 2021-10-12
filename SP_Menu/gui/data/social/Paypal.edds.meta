@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{48D3143BEF5E574C}SP_Menu/gui/data/social/New/Paypal.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate 714845004
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Paypal.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

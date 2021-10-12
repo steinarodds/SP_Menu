@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8A8B31B0F9E97ADE}SP_Menu/gui/fonts/raleway/light10.edds"
+ Author "desktop-291ln96"
+ ChangeDate -446305551
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "light10.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

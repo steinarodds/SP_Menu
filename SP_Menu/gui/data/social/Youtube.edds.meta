@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2C7C63E282DC4CDD}SP_Menu/gui/data/social/New/Youtube.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate -1263817908
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Youtube.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

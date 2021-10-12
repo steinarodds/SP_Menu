@@ -1,0 +1,327 @@
+FrameWidgetClass TraderMenu {
+ visible 0
+ color 0 0 0 0
+ position 0 0
+ size 0.9 0.9
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass TraderBackground {
+   visible 1
+   ignorepointer 1
+   color 0.1569 0.1569 0.1569 0.9412
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    TextWidgetClass title_text {
+     ignorepointer 1
+     position 0.02 0.02
+     size 48 30
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     text "Weapon Trader (Neutral)"
+     font "SP_Menu/gui/fonts/regular20"
+     "size to text h" 1
+     "size to text v" 1
+     "text valign" center
+    }
+    GridSpacerWidgetClass GridSpacerWidgetRight {
+     ignorepointer 1
+     position 0.02 0.02
+     size 48 30
+     halign right_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     Padding 5
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     Columns 2
+     Rows 1
+     {
+      CheckBoxWidgetClass SellablesCheckBox {
+       position 0.13515 0.02576
+       size 30 30
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 1
+       vexactsize 1
+       style TH
+       font "SP_Menu/gui/fonts/regular14"
+      }
+      TextWidgetClass ShowSellables {
+       ignorepointer 1
+       position 10 10
+       size 48 30
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Show Sellables Only"
+       font "SP_Menu/gui/fonts/regular20"
+       "size to text h" 1
+       "size to text v" 1
+       "text valign" center
+      }
+     }
+    }
+    TextListboxWidgetClass txtlist_items {
+     clipchildren 0
+     color 0 0 0 0.2353
+     position 0.05 -0.03
+     size 0.6 0.75
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style "TH without Scroll"
+     "title visible" 1
+     colums "#tm_item;70;#tm_price_buy;15;#tm_price_sell;15"
+     lines 1
+     "highlight row" 1
+     font "SP_Menu/gui/fonts/regular20"
+    }
+    EditBoxWidgetClass SearchBox {
+     visible 1
+     color 0.9961 1 1 1
+     position 0.02 -0.03
+     size 0.29 32
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 1
+     style Default
+     text "Search"
+     "Use default text" 1
+     "exact text" 1
+     font "SP_Menu/gui/fonts/regular20"
+    }
+    XComboBoxWidgetClass xcombobox_categorys {
+     color 1 0.4 0.4 1
+     position 0 0.02
+     size 340 30
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     style TH
+     font "SP_Menu/gui/fonts/regular20"
+     items "MELEE;SIDEARMS;SHOTGUNS;ASSAULT RIFLES;LIGHT MACHINE GUNS;SUB-MACHINE GUNS;SNIPER RIFLES"
+    }
+    ItemPreviewWidgetClass ItemFrameWidget {
+     visible 1
+     color 0 0 0 0.8
+     position 0.02 -0.23
+     size 0.32 0.35
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+    }
+    MultilineTextWidgetClass ItemDescWidget {
+     clipchildren 0
+     position 0.02 0.17
+     size 0.32 0.35
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "A box of large kitchen matches. Contains 250 matches. Store in dry place and keep away from children."
+     font "SP_Menu/gui/fonts/regular20"
+     "exact text" 1
+     "exact text size" 24
+     "size to text h" 0
+     "size to text v" 0
+     wrap 1
+     "condense whitespace" 1
+    }
+    GridSpacerWidgetClass GridSpacerWidgetButtons {
+     ignorepointer 1
+     position 0 0.02
+     size 48 48
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     style outline
+     Padding 10
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     Columns 2
+     Rows 1
+     {
+      PanelWidgetClass btn_buy_panel {
+       ignorepointer 1
+       color 0.9961 1 1 1
+       position 0 0
+       size 250 75
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Outline_1px
+       {
+        ButtonWidgetClass btn_buy {
+         color 0.4 0.6588 0.2667 1
+         size 248 72
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style EmptyHighlight
+         "no focus" 1
+         {
+          TextWidgetClass btn_buy_label {
+           ignorepointer 1
+           position 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "#tm_buy"
+           font "SP_Menu/gui/fonts/regular20"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass btn_sell_panel {
+       ignorepointer 1
+       color 0.9961 1 1 1
+       position 0 0
+       size 250 75
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style Outline_1px
+       {
+        ButtonWidgetClass btn_sell {
+         color 1 0.2353 0.4706 1
+         size 248 72
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style EmptyHighlight
+         "no focus" 1
+         {
+          TextWidgetClass btn_sell_label {
+           ignorepointer 1
+           position 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "#tm_sell"
+           font "SP_Menu/gui/fonts/regular20"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    ImageWidgetClass SearchImage {
+     ignorepointer 1
+     position 0.315 -0.03
+     size 32 32
+     halign right_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     imageTexture "{1B69487BC8BF5F74}SP_Menu/gui/data/trader/search.edds"
+     mode blend
+     "src alpha" 1
+     stretch 1
+    }
+    TextWidgetClass text_saldoValue {
+     position 0.02 0.05
+     size 115 30
+     halign right_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     text "MONEY: 1.000.000"
+     font "SP_Menu/gui/fonts/regular20"
+     "exact text" 0
+     "size to text h" 1
+     "size to text v" 1
+     "text halign" left
+     "text valign" center
+    }
+   }
+  }
+  PanelWidgetClass TraderOutline {
+   visible 1
+   ignorepointer 1
+   color 0.9961 1 1 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style Outline_1px
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 0.15 0
+   size 0.5 0.5
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 0
+   style rover_sim_colorable
+  }
+ }
+}

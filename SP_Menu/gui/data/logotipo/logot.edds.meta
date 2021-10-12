@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7D4C69E271C969A4}SP_Menu/gui/data/logotipo/logot.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate -579015861
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "logot.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

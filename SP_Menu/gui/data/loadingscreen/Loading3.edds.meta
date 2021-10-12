@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{ABE7219D6A40C73A}Icons and sounds/Images/Original/Loading3.edds"
+ Author "desktop-lqnc8t4"
+ ChangeDate -376198324
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Loading3.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

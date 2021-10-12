@@ -1,0 +1,104 @@
+ImageSetClass {
+ Name "imageset"
+ RefSize 1024 1024
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "SP_Menu/gui/imagesets/imageset.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass th_check {
+   Name "th_check"
+   Pos 8 8
+   Size 24 24
+   Flags 0
+  }
+  ImageSetDefClass th_check_select {
+   Name "th_check_select"
+   Pos 40 8
+   Size 24 24
+   Flags 0
+  }
+  ImageSetDefClass th_check_highlight {
+   Name "th_check_highlight"
+   Pos 104 8
+   Size 24 24
+   Flags 0
+  }
+  ImageSetDefClass regua {
+   Name "regua"
+   Pos 34 53
+   Size 26 9
+   Flags 0
+  }
+  ImageSetDefClass th_check_disable {
+   Name "th_check_disable"
+   Pos 72 8
+   Size 24 24
+   Flags 0
+  }
+  ImageSetDefClass slider {
+   Name "slider"
+   Pos 1 41
+   Size 1 1
+   Flags 0
+  }
+  ImageSetDefClass th_left_top {
+   Name "th_left_top"
+   Pos 8 46
+   Size 1 1
+   Flags 0
+  }
+  ImageSetDefClass th_top {
+   Name "th_top"
+   Pos 19 46
+   Size 2 1
+   Flags 0
+  }
+  ImageSetDefClass th_right_top {
+   Name "th_right_top"
+   Pos 31 46
+   Size 1 1
+   Flags 0
+  }
+  ImageSetDefClass th_left {
+   Name "th_left"
+   Pos 8 57
+   Size 1 2
+   Flags 0
+  }
+  ImageSetDefClass th_right {
+   Name "th_right"
+   Pos 31 57
+   Size 1 2
+   Flags 0
+  }
+  ImageSetDefClass th_bottom_left {
+   Name "th_bottom_left"
+   Pos 8 69
+   Size 1 1
+   Flags 0
+  }
+  ImageSetDefClass th_bottom {
+   Name "th_bottom"
+   Pos 19 69
+   Size 2 1
+   Flags 0
+  }
+  ImageSetDefClass th_bottom_right {
+   Name "th_bottom_right"
+   Pos 31 69
+   Size 1 1
+   Flags 0
+  }
+  ImageSetDefClass th_center {
+   Name "th_center"
+   Pos 36 46
+   Size 1 1
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

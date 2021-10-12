@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1B69487BC8BF5F74}TraderLayout/gui/data/search.edds"
+ Author "desktop-291ln96"
+ ChangeDate 1876290334
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "search.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
