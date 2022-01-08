@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_Data","Trader"};
+		requiredAddons[] = {"DZ_Data","sVisual","sFramework","SyberiaScripts"};
 	};
 };
 
@@ -55,13 +55,14 @@ class CfgMods
 
 class cfgCustomScenes
 {
-	class ChernarusPlus
+
+	class Banov
 	{
 		class loc1
 		{
-			PlayerPosition[] 	= {5928.615234, 88.646721, 3307.680908};
-            PlayerOrientation[] = {-70.999794, 0.000000, 0.000000};
-            CameraPosition[] 	= {5921.136230, 90.551735, 3310.168945};
+			PlayerPosition[] 	= {9563, 272.760742, 5849.5};
+            PlayerOrientation[] = {52.4807, 0.000000, 0.000000};
+            CameraPosition[] 	= {9566.685547, 282.760742, 5851.557617};
             fov=0.50;
 			overcast = 1;
 			rain = 1;
@@ -77,12 +78,12 @@ class cfgCustomScenes
             PlayerPosition[] 	= {526.447144, 3.288893, 12292.446289};
             PlayerOrientation[] = {-102.999580, 0.000000, 0.000000};
             CameraPosition[] 	= {522.109619, 4.080920, 12291.453125};
-            fov=0.75;
-			overcast = 1;
-			rain = 1;
-			fog = 1;
-			windspeed = 1;
-			date[] = {1997, 1, 15, 12, 00};
+            fov=1.0;
+            overcast = 1.0;
+			rain = 0.736;
+			fog = 0.221;
+			windspeed = 0.2;
+			date[] = {2020, 2, 3, 16, 15};
 		};	
 	};
 	class Chiemsee

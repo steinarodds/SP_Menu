@@ -98,7 +98,14 @@ modded class DayZIntroScene
              SpawnObject("bldr_prop_WolfSteakMeat", "5502.334961 125.273293 8139.508301", "0.000000 -0.000000 -0.000000");
              SpawnObject("bldr_prop_WolfSteakMeat", "5502.331055 125.273003 8139.710449", "13.999998 0.000000 0.000000");
              SpawnObject("bldr_fireplace_grill", "5502.275391 125.286636 8139.703125", "0.000000 -0.000000 -0.000000");
-        };     
+        };   
+        if (mapname == "Banov")
+		{             
+             SpawnObject("Land_fireplace_1", "9563.48 271.695 5848.32", "0.000000 -0.000000 -0.000000");
+             SpawnObject("Land_fireplace_1", "9563.48 271.695 5848.32", "0.000000 -0.000000 -0.000000");
+             SpawnObject("FBF_AreaLight_Warm", "9563.61 271.71 5848.25", "-86.689 -0.000000 -0.000000");
+             SpawnObject("FireplaceIndoor", "9563.61 271.71 5848.25", "-86.689 -0.000000 -0.000000");
+        };       
 	};
 
 	PlayerBase CreateCharacter(vector position, vector rotation, string itemInHands = "", int emote = -1, int stance = -1, string character = "")
@@ -156,6 +163,13 @@ modded class DayZIntroScene
 		if (mapname == "namalsk")
 		{
 			CreateCharacter("5501.459961 124.866997 8138.970215", "49.999996 0.000000 0.000000",	"SharpWoodenStick", DayZPlayerConstants.CMD_GESTUREFB_SITA, DayZPlayerConstants.STANCEMASK_CROUCH);
+			CreateCharacter("5501.55 124.818 8141.69", "90 0.000000 0.300000",	"ASVAL", EmoteGelikGunOnShoulder.CMD_GESTUREFB_GelikGunOnShoulder, DayZPlayerConstants.STANCEMASK_ERECT);
+			CreateCharacter("5500.820078 125.055002 8142.750098", "95 0.000000 0.300000",	"", DayZPlayerConstants.CMD_GESTUREFB_LYINGDOWN, DayZPlayerConstants.STANCEMASK_CROUCH);
+			CreateCharacter("5503.045898 124.799004 8143.384766", "-84.999985 0.000000 0.000000",	"Fangeknife", DayZPlayerConstants.CMD_ACTIONFB_ANIMALSKINNING, DayZPlayerConstants.STANCEMASK_CROUCH);
+		};
+				if (mapname == "Banov")
+		{
+			CreateCharacter("9564.52 271.377 5847.89", "-67.3848 0.000000 0.000000",	"SharpWoodenStick", DayZPlayerConstants.CMD_GESTUREFB_SITA, DayZPlayerConstants.STANCEMASK_CROUCH); // Next to fire from left
 			CreateCharacter("5501.55 124.818 8141.69", "90 0.000000 0.300000",	"ASVAL", EmoteGelikGunOnShoulder.CMD_GESTUREFB_GelikGunOnShoulder, DayZPlayerConstants.STANCEMASK_ERECT);
 			CreateCharacter("5500.820078 125.055002 8142.750098", "95 0.000000 0.300000",	"", DayZPlayerConstants.CMD_GESTUREFB_LYINGDOWN, DayZPlayerConstants.STANCEMASK_CROUCH);
 			CreateCharacter("5503.045898 124.799004 8143.384766", "-84.999985 0.000000 0.000000",	"Fangeknife", DayZPlayerConstants.CMD_ACTIONFB_ANIMALSKINNING, DayZPlayerConstants.STANCEMASK_CROUCH);
