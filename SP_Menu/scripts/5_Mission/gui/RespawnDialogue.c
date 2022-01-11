@@ -1,4 +1,6 @@
-modded class RespawnDialogue extends UIScriptedMenu
+// Disabled as syberia runs its own, Respawn dialogue (BANOV)
+
+/* modded class RespawnDialogue extends UIScriptedMenu
 {
 	override Widget Init()
 	{
@@ -20,4 +22,4 @@ modded class RespawnDialogue extends UIScriptedMenu
         ButtonSetColor(w, ARGB(0, 0, 0, 0));
         ButtonSetTextColor(w, UIColor);
     };
-};
+}; /*

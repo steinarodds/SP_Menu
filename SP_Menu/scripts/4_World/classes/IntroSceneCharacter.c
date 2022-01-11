@@ -1,12 +1,3 @@
-/**
-* IntroSceneCharacter.c
-*
-* THEBRITTO
-* https://steamcommunity.com/id/THEBRITTO/
-* https://thebritto.com.br
-* © 2021
-*/
-
 modded class IntroSceneCharacter extends Managed
 {
 	protected void CharacterLoad( int character_id, vector char_pos, vector char_rot )

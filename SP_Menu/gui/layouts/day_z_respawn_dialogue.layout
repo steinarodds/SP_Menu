@@ -1,4 +1,6 @@
-WindowWidgetClass WindowWidget {
+// Disabled for syberia.
+
+/*WindowWidgetClass WindowWidget {
  ignorepointer 1
  color 0.1569 0.6235 0.2745 1
  position 0 0
@@ -32,7 +34,7 @@ WindowWidgetClass WindowWidget {
      inheritalpha 0
      ignorepointer 1
      color 0.1176 0.1176 0.1176 0.9804
-     position 0.05 0.05
+     position 0.72863 -0.00481
      size 450 105
      valign bottom_ref
      hexactpos 0
@@ -208,7 +210,7 @@ WindowWidgetClass WindowWidget {
      clipchildren 1
      ignorepointer 1
      color 0.1961 0.1961 0.1961 0.5882
-     position 0.05 0.25
+     position 0.73156 0.17006
      size 350 603.55298
      valign bottom_ref
      hexactpos 0
@@ -244,7 +246,6 @@ WindowWidgetClass WindowWidget {
          vexactpos 1
          hexactsize 0
          vexactsize 0
-         text "This is Sparta"
          font "SP_Menu/gui/fonts/bold20"
          "size to text h" 0
          "size to text v" 0
@@ -360,4 +361,4 @@ WindowWidgetClass WindowWidget {
    }
   }
  }
-}
+}*/

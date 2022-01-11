@@ -475,7 +475,7 @@ FrameWidgetClass FrameWidget {
   }
   PanelWidgetClass menu {
    ignorepointer 1
-   position 0.05 0.05
+   position 0.75661 0.00094
    size 400 400
    valign bottom_ref
    hexactpos 0

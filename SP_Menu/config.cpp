@@ -60,13 +60,13 @@ class cfgCustomScenes
 	{
 		class loc1
 		{
-			PlayerPosition[] 	= {9563, 272.760742, 5849.5};
-            PlayerOrientation[] = {52.4807, 0.000000, 0.000000};
-            CameraPosition[] 	= {9566.685547, 282.760742, 5851.557617};
-            fov=0.50;
+			PlayerPosition[] 	= {9569.164063, 271.334961, 5853.106445};
+            PlayerOrientation[] = {0.0000, 0.000000, 0.000000};
+            CameraPosition[] 	= {9569.136719, 272.194708, 5857.333008};
+            fov=1.0;
 			overcast = 1;
-			rain = 1;
-			fog = 1;
+			rain = 0.7;
+			fog = 0;
 			windspeed = 1;
 			date[] = {1997, 1, 15, 12, 00};
 		};
