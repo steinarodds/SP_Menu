@@ -16,7 +16,7 @@ modded class DayZIntroScene
 		mapname.ToLower();
 		
 		// Get Current Scene
-		string pathAllScenes = "cfgCharacterScenes " + g_Game.GetWorldName();
+		string pathAllScenes = "cfgCustomScenes " + g_Game.GetWorldName(); // was CFG cfgcharacterscenes 
 		int numScenes = g_Game.ConfigGetChildrenCount( pathAllScenes );
 		int sceneIndex = 0; // If you add more scenes in config, make this Math.RandomInt( 0, numScenes );
 		string nameCurrentScene;

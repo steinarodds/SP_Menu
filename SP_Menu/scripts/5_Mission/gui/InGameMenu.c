@@ -274,4 +274,4 @@ modded class InGameMenu extends UIScriptedMenu
         }
         return out_string;
     };
-};
+}; 
